@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  env: {
-    nasser: "nasser",
-  },
+  reactStrictMode: false,
 };
 
 export default nextConfig;

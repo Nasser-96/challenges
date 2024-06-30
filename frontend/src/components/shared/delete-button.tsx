@@ -22,7 +22,7 @@ export default function DeleteButton({ ...props }: DeleteButtonProps) {
     setTimeout(() => {
       setIsAnimated(true);
       setDisabled(false);
-    }, 1500);
+    }, 1600);
   };
 
   return (
@@ -37,7 +37,7 @@ export default function DeleteButton({ ...props }: DeleteButtonProps) {
           <div className="flex relative h-3 scale-150">
             <div
               className={`absolute duration-500 transition-all left-[1px] flex justify-center w-full ${
-                isClicked ? "bottom-2.5 -rotate-45" : "bottom-2 -rotate-0"
+                isClicked ? "bottom-3.5 -rotate-45" : "bottom-2 -rotate-0"
               }`}
             >
               {/* Trash Header */}
